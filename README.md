@@ -27,3 +27,4 @@ Every time code is pushed to the `main` branch, a new Docker image is built and 
 - **Current Update**: Configured GitHub Actions for automated CI/CD pipeline.
 
 -   Tested by: Malaika Munir.
+-   Tested by Tanqeen zafar
