@@ -12,3 +12,16 @@ Areeba: Project Documentation and README setup (Resolved Issue #3).
 2. Used commit messages with `fixes #issue_number` to automate issue closing.
 3. Conducted Pull Request reviews before merging into the main branch.
 
+## CI/CD Pipeline
+This project uses **GitHub Actions** to automate the build and deployment process. 
+Every time code is pushed to the `main` branch, a new Docker image is built and pushed to Docker Hub.
+
+## Instructions
+1. Clone the repository.
+2. Build the Docker image locally: `docker build -t devops-project .`
+3. Run the container: `docker run -p 80:80 devops-project`
+
+## Changelog
+- **Initial Release**: Static website files added.
+- **Update**: Added Dockerfile for containerization.
+- **Current Update**: Configured GitHub Actions for automated CI/CD pipeline.
